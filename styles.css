@@ -1,32 +1,30 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-  background: #0f172a;
-  color: #fff;
-  width: 420px;
+  font-family: Inter, sans-serif;
+  background: #0b1220;
+  color: #e2e8f0;
+  width: 480px;
 }
 
-.container {
+.app {
   padding: 16px;
 }
 
 h1 {
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 textarea {
   width: 100%;
-  height: 120px;
-  margin-bottom: 10px;
+  height: 110px;
+  padding: 10px;
   border-radius: 8px;
   border: none;
-  padding: 10px;
-  font-size: 12px;
-  resize: none;
+  margin-bottom: 10px;
 }
 
-.buttons {
+.controls {
   display: flex;
   gap: 8px;
   margin-bottom: 10px;
@@ -38,25 +36,44 @@ button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  font-weight: bold;
 }
 
-#convertBtn {
+#convertBtn { background: #22c55e; color: black; }
+#copyBtn { background: #6366f1; color: white; }
+#downloadBtn { background: #3b82f6; color: white; }
+
+#columns {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.column-tag {
+  background: #1f2937;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.column-tag.active {
   background: #22c55e;
   color: black;
 }
 
-#downloadBtn {
-  background: #3b82f6;
-  color: white;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
 }
 
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
+td, th {
+  border: 1px solid #1f2937;
+  padding: 4px;
 }
 
-.error {
+#error {
   color: #f87171;
   font-size: 12px;
 }
