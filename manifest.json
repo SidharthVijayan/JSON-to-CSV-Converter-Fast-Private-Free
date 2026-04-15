@@ -1,11 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "JSON to CSV Converter",
-  "description": "Convert JSON to CSV instantly. Clean, fast, and private.",
-  "version": "1.0",
+  "name": "JSON to CSV Pro",
+  "description": "Convert, flatten, and export JSON to CSV with a premium UI.",
+  "version": "2.0",
   "action": {
-    "default_popup": "popup.html",
-    "default_title": "JSON → CSV"
-  },
-  "permissions": []
+    "default_popup": "popup.html"
+  }
 }
