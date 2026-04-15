@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON → CSV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>JSON → CSV</h1>
+
+    <textarea id="jsonInput" placeholder="Paste your JSON here..."></textarea>
+
+    <div class="buttons">
+      <button id="convertBtn">Convert</button>
+      <button id="downloadBtn" disabled>Download CSV</button>
+    </div>
+
+    <textarea id="csvOutput" placeholder="CSV output..." readonly></textarea>
+
+    <p id="error" class="error"></p>
+  </div>
+
+  <script src="utils.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
