@@ -1,6 +1,6 @@
 # JSON to CSV Chrome Extension
 
-Convert JSON to CSV instantly in your browser.
+“Convert & Flatten JSON → CSV (No Uploads, 100% Private)
 
 ## Features
 - Fast client-side conversion
